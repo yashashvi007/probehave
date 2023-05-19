@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600&family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500;1,700&family=IM+Fell+Great+Primer+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+
+.main {
+  font-family: "Poppins";
+  background: #ffffff;
+  box-shadow: 0px 4px 100px 16px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #444444;
+}
+
+.form {
+  width: 100%;
+}
+
+.form select {
+  height: 40px;
+  width: 200px;
+  padding: 5px;
+  font-family: "Poppins";
+  vertical-align: center;
+  border: 0px;
+  background: rgba(217, 217, 217, 0.6);
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.form select:focus {
+  outline: none;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

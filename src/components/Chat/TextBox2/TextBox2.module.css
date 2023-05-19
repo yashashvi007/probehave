@@ -1,0 +1,41 @@
+.textBox2 {
+ width: 350px;
+  min-height: 100px;
+background-color: rgba(255, 255, 255, 0.2);
+  font-family: "poppins";
+  color: white;
+  padding: 20px 20px 20px 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  backdrop-filter: blur(10px);
+}
+
+
+.textBox2_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -67px;
+  left: -60px;
+}
+
+
+
+@media screen and (max-width:750px) {
+  .textBox2 {
+    width: 200px;
+    min-height: 60px ;
+  }
+    .textBox2_img {
+  height: 120px;
+  width: 120px;
+  right: -55px;
+  top: -59px;
+}
+}

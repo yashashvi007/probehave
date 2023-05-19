@@ -1,0 +1,23 @@
+.chatOption {
+  width: 350px;
+  height: 49px;
+  background: linear-gradient(
+    90deg,
+    rgba(102, 185, 224, 0.6) 0%,
+    rgba(156, 111, 218, 0.6) 100%
+  );
+  box-shadow: 1px 1px 20px 6px rgba(0, 0, 0, 0.11);
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatOption_option {
+  font-family: "poppins";
+  color: white;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}

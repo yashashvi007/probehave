@@ -1,0 +1,75 @@
+.main {
+  display: grid;
+  /* background: rgb(172,125,253); */
+  /* background: linear-gradient(227deg, rgba(172,125,253,1) 0%, rgba(42,40,80,1) 100%); */
+  min-height: 100vh;
+  grid-template-columns: 0.6fr 1fr 1fr 1fr;
+  grid-template-rows: auto 2.5fr 2.5fr;
+  grid-template-areas:
+    "nav nav nav nav"
+    "menu container container container"
+    "menu container container container";
+}
+
+.navBar {
+  grid-area: nav;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 10px 30px;
+  vertical-align: middle;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #ffffff;
+}
+.navBar h3 {
+  display: none;
+}
+
+
+
+.menu {
+  grid-area: menu;
+
+}
+
+.container {
+  grid-area: container;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* .responsiveMenu {
+  display: none;
+} */
+
+@media screen and (max-width: 1200px) {
+  .main {
+    grid-template-areas:
+      "responsiveMenu responsiveMenu responsiveMenu responsiveMenu"
+      "container container container container"
+      "container container container container";
+  }
+  .menu {
+    display: none;
+  }
+  .navBar {
+    justify-content: space-between;
+    align-items: center;
+  padding: 20px 20px;
+  }
+  .navBar h3 {
+    display: block;
+  }
+
+  .responsiveMenu {
+    display: block !important;
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+  }
+}

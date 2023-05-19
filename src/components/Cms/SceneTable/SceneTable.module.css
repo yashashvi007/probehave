@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600&family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500;1,700&family=IM+Fell+Great+Primer+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+.main {
+  width: 82vw;
+     overflow-x: auto;
+    background: #FDFDFD;
+    border-radius: 19.4764px;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.table {
+    width: 100%;
+    background: #FDFDFD;
+    border-radius: 19.4764px;
+    font-family: 'Poppins';
+    color: #6F6F6F;
+    border-collapse: collapse;
+}
+
+.tableHeading {
+    color: #808080;
+    background: #EEECEC;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.data {
+    /* height: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6F6F6F; */
+
+      height: 50px;
+
+}
+
+.data:nth-child(odd) {
+    background: rgba(187, 173, 255, 0.2);
+
+}
+
+
+
+
+.hoverCross {
+    position: relative;
+  }
+  
+.hoverCross::after {
+    content: "Delete";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+  
+.hoverCross:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+  
+
+
+
+.hoverEdit {
+    position: relative;
+  }
+  
+.hoverEdit::after {
+    content: "Create";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+  
+.hoverEdit:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+  

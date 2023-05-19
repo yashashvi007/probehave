@@ -1,0 +1,9 @@
+.chatChoices {
+  display: flex;
+  height: auto;
+  gap: 10px;
+  padding: 10px 5px;
+  flex-direction:column-reverse;
+ align-items: flex-end;
+ margin-right: 80px;
+}

@@ -1,0 +1,245 @@
+.hero {
+    height: max-content;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(63, 168, 215, 0.8) 0%, rgba(134, 72, 208, 0.8) 100%);
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    padding: 40px 20px 0px 50px;
+}
+
+.heroheading {
+    font-weight: 500;
+    font-size: 40px;
+    max-width: 600px;
+}
+
+.herodesc1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+.herorating {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    max-width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.herolast {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    height: 50px;
+    justify-content: space-between;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+
+}
+.herolast p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.main {
+    border: 1px solid #D0D7DD;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: 'DM Sans';
+    max-width: 700px;
+    color: #383838;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.mainheading {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.1rem;
+}
+
+.maindesc {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    gap: 20px;
+}
+
+.details {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #383838;
+
+}
+
+.detailsdesc {
+    color: rgba(103, 103, 103, 1);
+    max-width: 900px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.05rem;
+
+}
+
+.showmore {
+    font-family: 'DM Sans';
+    color: rgba(88, 93, 255, 1);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+
+.card {
+    font-family: 'DM Sans';
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 10px 6px 20px rgba(66, 66, 66, 0.2);
+    border-radius: 22px;
+    position: absolute;
+    top: 190px;
+    right: 120px;
+    padding: 40px 20px;
+    padding-top: 30px;
+}
+
+.cardbtn1 {
+    background: #585DFF;
+    border-radius: 40px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardbtn2 {
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+.cardheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.image3 {
+    position: absolute;
+    width: 100%;
+    top: 820px;
+    z-index: -6;
+}
+
+.relatedVideos {
+        padding: 30px 40px;
+}
+
+.relatedVideos h3 {
+        font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #383838;
+}
+
+@media screen and (max-width: 1500px) {
+    .card {
+        right: 20px;
+    }
+
+    .herodesc1 {
+        max-width: 500px;
+    }
+
+    .main {
+        max-width: 400px;
+    }
+
+    .maindesc {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .detailsdesc {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .card {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .card_container {
+        max-width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin: 10px 40px;
+        margin-right: 0px;
+        margin-bottom: 60px;
+        align-items: center;
+    }
+
+    .main {
+        width: max-content;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    .herolast {
+        flex-direction: column;
+        height: 100%;
+        align-items: self-start;
+        gap: 10px;
+        padding-bottom: 10px;
+            margin: 40px 0px;
+
+    }
+}

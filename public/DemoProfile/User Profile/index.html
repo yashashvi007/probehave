@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- ============================= NAV BAR ================================= -->
+      <nav id="navcontainer">
+        <img src="./images/Pro Behave 1 Logo.png" alt="logo" />
+        <div id="navBar">
+          <li href="">Home</li>
+          <li href="">Course</li>
+          <li href="">Pricing</li>
+          <li href="">Page</li>
+          <li href="">Contact</li>
+        </div>
+        <div id="btnCont">
+          <button class="lightBtn Btn">Log in</button>
+          <button class="darkBtn Btn">Register</button>
+        </div>
+      </nav>
+
+      <!-- ============================= PROFILE RECTANGLE ================================= -->
+      <div id="profileRec">
+        <div>
+          <img id="rec" src="./images/Rectangle 6691.png" alt="background" />
+          <img
+            id="profilePic"
+            src="./images/Ellipse 11.png"
+            alt="profile pic"
+          />
+        </div>
+        <div >
+          <input class="input" type="text" value="Name" />
+          <input class="input" type="text" value="Profession" />
+        </div>
+        <button id="saveBtn" class="darkBtn Btn">Save Changes</button>
+      </div>
+
+      <!-- ============================= MODULES RECTANGLE ================================= -->
+      <div id="modulesRec">
+        <div>
+          <h1 id="modules">Modules</h1>
+          <h1 id="about">About</h1>
+          <hr id="userHr" />
+          <div id="cnt2">
+            <h2>Bio</h2>
+            <textarea id="bioInput">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis sunt labore, quaerat qui fugit voluptates totam facere tempore tempora optio eligendi laudantium aperiam quasi, praesentium, tenetur provident officia eveniet!lorem222
+            </textarea>
+            <div id="contactCnt">
+              <div>
+                <p class="circle">
+                  <img src="./images/mail icon.png" alt="mail" />
+                </p>
+              </div>
+              <input class="input" type="text" value="Email" />
+              <div>
+                <p class="circle">
+                  <img src="./images/location icon.png" alt="location" />
+                </p>
+              </div>
+              <input class="input" type="text" value="Location" />
+
+              <div>
+                <p class="circle">
+                  <img src="./images/mobile.png" alt="mobile" />
+                </p>
+                <input class="input" type="text" value="Mobile Number" />
+              </div>
+              <button class="darkBtn Btn">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

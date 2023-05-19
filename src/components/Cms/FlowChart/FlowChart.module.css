@@ -1,0 +1,15 @@
+.flowChart {
+  margin: 5% auto;
+  align-items: center;
+}
+.flowChart p {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.verticalLine {
+  width: 1px;
+  height: 50px;
+  border: 1px dashed #9269ff;
+  margin: auto;
+}

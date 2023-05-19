@@ -1,0 +1,303 @@
+:root {
+  --mainBg: #919191;
+
+  /* ---------------------------------------- COLORS --------------------------------------------- */
+  --darkBlueClr: #7a9af0;
+  --darkBlueClr60: #7a9af099;
+
+  --lightBlueClr: #70a0f3;
+  --lightBlueClr13: #70a0f321;
+
+  /* ---------------------------------------- OTHER COLORS --------------------------------------------- */
+  --lightBorderclr: #f1f1f1;
+
+  /* ---------------------------------------- FONTS --------------------------------------------- */
+  --raleway: Raleway;
+  --Poppins: Poppins;
+
+  /* ---------------------------------------- FONTS COLORS --------------------------------------------- */
+  --lightFontClr: #a5a5a5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+
+/* =================================== MAIN CONTAINER ==================================== */
+
+.container {
+  /* height: 100vh; */
+  width: 95vw;
+  position: absolute;
+  left: 20px;
+}
+
+#navcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 109px;
+  font-family: var(--raleway);
+}
+
+#navcontainer img {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  left: 56px;
+}
+
+#navBar {
+  display: flex;
+  position: absolute;
+  height: 28px;
+  /* width: 431px; */
+  left: 449px;
+  gap: 47px;
+}
+
+#navBar li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 15.54px;
+  color: #3a3a3a;
+  /* text-decoration: none; */
+}
+
+li:hover {
+  text-decoration: solid;
+  text-decoration: 1.8px underline #9570ff;
+  text-underline-offset: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #000000;
+}
+
+#btnCont {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  right: 80px;
+  width: 350px;
+}
+
+.Btn {
+  height: 50px;
+  width: 159px;
+  left: 972px;
+  top: 16px;
+  border-radius: 50px;
+  border: 2px solid var(--lightBlueClr);
+}
+
+.lightBtn {
+  color: var(--lightBlueClr);
+  background-color: var(--lightBlueClr13);
+}
+
+.darkBtn {
+  background-color: var(--darkBlueClr60);
+  color: #ffffff;
+}
+
+/* =================================== PROFILE RECTANGLE ==================================== */
+#profileRec {
+  position: absolute;
+  width: 1349px;
+  height: 380px;
+  left: 46px;
+  top: 110px;
+
+  box-shadow: 0px 2px 40px rgba(63, 63, 63, 0.08);
+  border-radius: 10px;
+}
+
+#rec {
+  margin-bottom: 65px;
+  height: 180px;
+}
+
+#profilePic {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 44px;
+  top: 82px;
+}
+
+#profileRec input {
+  display: flex;
+  width: 332px;
+  height: 30px;
+  margin: auto auto 10px 44px;
+  border-radius: 4px;
+}
+
+.input {
+  font-family: var(--Poppins);
+  padding: 11px 16px;
+  color: var(--lightFontClr);
+  border: 1.55px solid var(--lightBorderclr);
+}
+
+#profileRec button {
+  position: absolute;
+  width: 144px;
+  height: 43px;
+  left: 1155px;
+  top: 277px;
+}
+#saveBtn {
+  font-family: var(--Poppins);
+  font-weight: 400;
+  background-color: var(--darkBlueClr);
+}
+
+/* =================================== MODULES RECTANGLE ==================================== */
+#modulesRec {
+  position: absolute;
+  width: 1349px;
+  height: 470px;
+  left: 46px;
+  top: 523px;
+  background: #ffffff;
+  box-shadow: 0px 2px 40px rgba(63, 63, 63, 0.08);
+  border-radius: 10px;
+}
+
+#modules:hover,
+#about:hover {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--darkBlueClr);
+  text-decoration: 3px underline var(--darkBlueClr);
+  text-underline-offset: 20px;
+}
+
+#modules {
+  font-family: var(--Poppins);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.5;
+  position: absolute;
+  width: 68px;
+  left: 47px;
+  top: 25px;
+}
+
+#about {
+  font-family: var(--Poppins);
+  font-style: normal;
+  color: #000000;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  width: 50px;
+  left: 207px;
+  top: 25px;
+}
+
+#userHr {
+  position: absolute;
+  width: 1349px;
+  height: 1px;
+  top: 65px;
+  background-color: #ededed;
+  border: 1px dashed #ededed;
+}
+
+#cnt2 {
+  display: flex;
+  height: 500px;
+  /* background-color: rebeccapurple ; */
+}
+
+#cnt2 h2 {
+  position: absolute;
+  width: 25px;
+  left: 47px;
+  top: 135px;
+  font-family: var(--Poppins);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#bioInput {
+  box-sizing: border-box;
+  font-family: var(--Poppins);
+  font-size: 14px;
+  position: absolute;
+  width: 739px;
+  left: 25px;
+  top: 177px;
+  padding: 19px 0px 12px 20px;
+  border: 2.4px solid var(--lightBorderclr);
+  color: #000000;
+  opacity: 0.7;
+  border-radius: 8px;
+  resize: none;
+  height: 200px;
+  direction: ltr;
+}
+
+.circle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 44px;
+  height: 44px;
+  left: -64px;
+  border-radius: 55px;
+  background: rgba(122, 153, 240, 0.258);
+  opacity: 0.25;
+}
+
+.circle img {
+  top: 11px;
+  /* filter: brightness(120%) contrast(120%); */
+  height: 20.5px;
+  width: 20.75px;
+  position: relative;
+}
+
+#contactCnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 43px;
+  width: 351px;
+  top: 123px;
+}
+
+#contactCnt input {
+  margin-bottom: 23px;
+  padding: 13px 0px 14px 16px;
+  font-size: 12px;
+  width: 332px;
+  /* height: 45px; */
+  /* top: 22px; */
+  /* left: 120px; */
+  border-radius: 4px;
+}
+
+#contactCnt button {
+  position: absolute;
+  width: 125px;
+  /* height: 43px; */
+  left: -58px;
+  top: 240px;
+  background: var(--darkBlueClr);
+  border-radius: 22px;
+}

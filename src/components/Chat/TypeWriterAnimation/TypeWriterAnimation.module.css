@@ -1,0 +1,13 @@
+.box {
+  height: auto;
+  overflow-wrap: break-word;
+    color: #ededed;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:750px) {
+  .box {
+    font-size: 15px;
+  }
+}

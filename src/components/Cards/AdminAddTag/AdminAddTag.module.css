@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600&family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500;1,700&family=IM+Fell+Great+Primer+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+.main{
+    background: #FFFFFF;
+    width: 661px;
+/* height: 468px;   */
+margin: 20px;
+
+}
+.h3{
+    font-family: 'DM Sans';
+font-weight: 400;
+font-size: 30px;
+margin-top:-20px;
+margin-bottom: 20px;
+color: rgba(69, 59, 117, 1);
+/* identical to box height, or 100% */
+
+
+color: #453B75;
+}
+.form{
+    width: 600px;
+    display: grid;
+    /* padding-left: 80px; */
+    row-gap: 15px;
+    column-gap: 10px;
+    grid-template-columns: 30% 50%;
+    align-items: center;
+    justify-content: center;
+}
+.bootomimage{
+    transform: rotate(180deg);
+}
+.label{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+.input{
+    width: 365px;
+height: 53px;
+border: 0;
+font-size: 20px;
+padding: 10px;
+background: rgba(146, 105, 255, 0.07);
+}
+.input:focus{
+    outline: none;
+}

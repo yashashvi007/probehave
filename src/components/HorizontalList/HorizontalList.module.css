@@ -1,0 +1,52 @@
+.horizontalList {
+  width: 100%;
+  padding: 20px 40px;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontalList h1 {
+  font-family: "IM Fell Great Primer SC", serif;
+  margin-bottom: 30px;
+}
+
+.horizontalList_books {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway";
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.horizontalList_books::-webkit-scrollbar {
+  display: none;
+}
+
+.booksCard {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.booksCard_img {
+  height: 380px;
+  width: 250px;
+}
+
+.horizontalList_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.infoRating {
+  width: 100%;
+  padding: 0 20px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+}

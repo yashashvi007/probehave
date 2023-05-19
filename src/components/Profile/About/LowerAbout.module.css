@@ -1,0 +1,74 @@
+.lowerAbout {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.lowerAbout_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.lowerAbout_left textarea {
+  width: 739px;
+  height: 156px;
+  border-radius: 8px;
+  border: 2px solid #f1f1f1;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.lowerAbout_right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.lowerAbout_rightInput {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lowerAbout_rightInput_icons {
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #7a9af099;
+  color: #7a9af0;
+  font-size: 40px;
+}
+.lowerAbout_rightInput_input {
+  border: 1.55px solid #f1f1f1;
+  border-radius: 4px;
+  width: 332px;
+  height: 45px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .lowerAbout {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+  }
+  .lowerAbout_right {
+    gap: 10px;
+  }
+  .lowerAbout_rightInput_input {
+    width: 300px;
+  }
+  .lowerAbout_left textarea {
+    width: 100%;
+    height: 130px;
+  }
+  .lowerAbout_right {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .lowerAbout_rightInput_input {
+    width: 200px;
+  }
+}

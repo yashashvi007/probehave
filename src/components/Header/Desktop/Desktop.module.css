@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  backdrop-filter: blur(8px);
+}
+
+.logo {
+  padding: 10px 20px;
+  width: 60px;
+  height: 60px;
+  background: url("/logo.svg");
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+}
+
+.menu a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+}
+.link:hover {
+  border-bottom: 2px solid rgba(149, 112, 255, 1);
+  font-weight: bold;
+}
+
+.authButtonContainer {
+  width: 18vw;
+}
+
+.authButtonContainer_ins {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    display: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .authButtonContainer {
+    width: 250px;
+  }
+}

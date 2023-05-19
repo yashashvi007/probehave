@@ -1,0 +1,11 @@
+
+/* Admin  */
+@media screen and (max-width:900px) {
+    .path {
+        font-size: 16px !important;
+        padding-top: 10px; 
+      background-color: red;
+    }
+}
+
+

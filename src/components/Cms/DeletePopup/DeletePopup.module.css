@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600&family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500;1,700&family=IM+Fell+Great+Primer+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+.main{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px 16px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 40px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form input{
+    border: 0px;
+    width: 350px;
+    height: 30px;
+    resize: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: rgba(217, 217, 217, 0.6);
+    border-radius: 4px;
+    font-family: 'Poppins';
+    padding: 0px 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form input::-webkit-scrollbar {
+    display: none;
+}
+
+.outline {
+    background: rgba(153, 116, 255, 0.1);
+    border: 1.40732px solid #9974FF;
+    border-radius: 4.22196px;
+    width: 50px;
+    display: flex;align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #9974FF;
+    /* padding: 10px 10px; */
+}
+
+.selectedOutline {
+    background: rgba(153, 116, 255, 0.1);
+    border: 1.40732px solid #ff00a6;
+    border-radius: 4.22196px;
+    width: 50px;
+    display: flex;align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff00a6;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+

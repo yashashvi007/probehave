@@ -1,0 +1,66 @@
+.testimonialsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonialsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.testimonial p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #616771;
+}
+
+.nameDesignationContainer {
+  display: flex;
+  align-items: center;
+}
+
+.nameDesignationContainer h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #040f25;
+}
+
+.testimonialLetterCircle {
+  background-color: #2fc5fc;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+}
+
+@media screen and (max-width: 900px) {
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+  }
+  .testimonial p:nth-child(1) {
+    text-align: center;
+  }
+  .testimonial:nth-child(2) {
+    display: none;
+  }
+}

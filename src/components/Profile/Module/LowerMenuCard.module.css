@@ -1,0 +1,15 @@
+.lowerMenuCard {
+  display: flex;
+  justify-content: space-around;
+  background: #f5f4f4;
+  border-radius: 5px;
+  width: 1282px;
+  min-height: 70px;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .lowerMenuCard {
+    width: 100%;
+  }
+}
